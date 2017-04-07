@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"realm",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "realm",
+    "description": "api documentation for [realm (v1.2.0)](https://realm.io) [![npm package](https://img.shields.io/npm/v/npmdoc-realm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-realm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-realm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-realm)",
     "devDependencies": {
-        "realm": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "realm": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-realm",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-realm",
+    "keywords": [
+        "documentation",
+        "realm"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_realm.js",
+    "name": "npmdoc-realm",
+    "nameAlias": "npmdoc_realm",
+    "nameOriginal": "npmdoc-realm",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-realm"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
