@@ -1,9 +1,14 @@
-# api documentation for  [realm (v1.2.0)](https://realm.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-realm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-realm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-realm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-realm)
+# npmdoc-realm
+
+#### api documentation for  [realm (v1.2.0)](https://realm.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-realm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-realm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-realm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-realm)
+
 #### Realm is a mobile database: an alternative to SQLite and key-value stores
 
-[![NPM](https://nodei.co/npm/realm.png?downloads=true)](https://www.npmjs.com/package/realm)
+[![NPM](https://nodei.co/npm/realm.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/realm)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-realm/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-realm%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-realm/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-realm/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-realm/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-realm/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-realm/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-realm/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Realm",
-        "email": "help@realm.io",
         "url": "https://realm.io"
     },
     "binary": {
@@ -92,13 +96,11 @@
     "main": "lib/index.js",
     "maintainers": [
         {
-            "name": "realmnpm",
-            "email": "km@realm.io"
+            "name": "realmnpm"
         }
     ],
     "name": "realm",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/realm/realm-js.git"
@@ -136,37 +138,6 @@
     },
     "version": "1.2.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module realm](#apidoc.module.realm)
-1.  object <span class="apidocSignatureSpan">realm.</span>errors
-
-#### [module realm.errors](#apidoc.module.realm.errors)
-1.  [function <span class="apidocSignatureSpan">realm.errors.</span>AuthError (problem)](#apidoc.element.realm.errors.AuthError)
-
-
-
-# <a name="apidoc.module.realm"></a>[module realm](#apidoc.module.realm)
-
-
-
-# <a name="apidoc.module.realm.errors"></a>[module realm.errors](#apidoc.module.realm.errors)
-
-#### <a name="apidoc.element.realm.errors.AuthError"></a>[function <span class="apidocSignatureSpan">realm.errors.</span>AuthError (problem)](#apidoc.element.realm.errors.AuthError)
-- description and source-code
-```javascript
-function AuthError(problem) {
-    Error.call(this, problem.title);
-    Object.assign(this, problem);
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
