@@ -22,7 +22,7 @@
 <tspan x="10" y="314">  │   └─┬ fd-slicer@1.0.1 </tspan>
 <tspan x="10" y="330">  │     └── pend@1.2.0 </tspan>
 <tspan x="10" y="346">  ├── ini@1.3.4 </tspan>
-<tspan x="10" y="362">  ├── nan@2.6.1 </tspan>
+<tspan x="10" y="362">  ├── nan@2.6.2 </tspan>
 <tspan x="10" y="378">  ├─┬ node-fetch@1.6.3 </tspan>
 <tspan x="10" y="394">  │ ├─┬ encoding@0.1.12 </tspan>
 <tspan x="10" y="410">  │ │ └── iconv-lite@0.4.15 </tspan>
@@ -87,10 +87,10 @@
 <tspan x="10" y="1354">  │ │ └── delayed-stream@1.0.0 </tspan>
 <tspan x="10" y="1370">  │ ├── extend@3.0.0 </tspan>
 <tspan x="10" y="1386">  │ ├── forever-agent@0.6.1 </tspan>
-<tspan x="10" y="1402">  │ ├─┬ form-data@2.1.2 </tspan>
+<tspan x="10" y="1402">  │ ├─┬ form-data@2.1.4 </tspan>
 <tspan x="10" y="1418">  │ │ └── asynckit@0.4.0 </tspan>
 <tspan x="10" y="1434">  │ ├─┬ har-validator@4.2.1 </tspan>
-<tspan x="10" y="1450">  │ │ ├─┬ ajv@4.11.6 </tspan>
+<tspan x="10" y="1450">  │ │ ├─┬ ajv@4.11.7 </tspan>
 <tspan x="10" y="1466">  │ │ │ ├── co@4.6.0 </tspan>
 <tspan x="10" y="1482">  │ │ │ └─┬ json-stable-stringify@1.0.1 </tspan>
 <tspan x="10" y="1498">  │ │ │   └── jsonify@0.0.0 </tspan>
@@ -107,7 +107,7 @@
 <tspan x="10" y="1674">  │ │ │ ├── extsprintf@1.0.2 </tspan>
 <tspan x="10" y="1690">  │ │ │ ├── json-schema@0.2.3 </tspan>
 <tspan x="10" y="1706">  │ │ │ └── verror@1.3.6 </tspan>
-<tspan x="10" y="1722">  │ │ └─┬ sshpk@1.11.0 </tspan>
+<tspan x="10" y="1722">  │ │ └─┬ sshpk@1.13.0 </tspan>
 <tspan x="10" y="1738">  │ │   ├── asn1@0.2.3 </tspan>
 <tspan x="10" y="1754">  │ │   ├── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="1770">  │ │   ├── bcrypt-pbkdf@1.0.1 </tspan>
